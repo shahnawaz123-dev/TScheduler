@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication1
+namespace FrontPages
 {
 
 
@@ -22,6 +22,15 @@ namespace WebApplication1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+
+        /// <summary>
+        /// TournamentName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label TournamentName;
 
         /// <summary>
         /// TournamentType control.
@@ -42,13 +51,13 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.Label startDate;
 
         /// <summary>
-        /// EndDate control.
+        /// EndDateTxtBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label EndDate;
+        protected global::System.Web.UI.WebControls.Label EndDateTxtBox;
 
         /// <summary>
         /// participantName control.
@@ -58,6 +67,15 @@ namespace WebApplication1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label participantName;
+
+        /// <summary>
+        /// lblError control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblError;
 
         /// <summary>
         /// btnAdd control.
