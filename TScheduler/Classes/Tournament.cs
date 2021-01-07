@@ -16,7 +16,7 @@ namespace Classes
 
         public string scheduleType { get; set; }
 
-        public List<Participants> EnteredParticipants { get; set; } = new List<Participants>();
+        public List<ParticipantsList> EnteredParticipants { get; set; } = new List<ParticipantsList>();
         public List<List<Matches>> Rounds { get; set; } = new List<List<Matches>>();
     }
 }

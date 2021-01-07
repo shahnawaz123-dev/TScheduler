@@ -6,10 +6,30 @@ using System.Threading.Tasks;
 
 namespace Classes
 {
-    public class Participants
+    class Participants
     {
-        public List<Participants> participants { get; set; } = new List<Participants>();
-        
+        private Int32 pID;
+        public int ParticipantID {
+            get
+            {
+                return pID;
+            }
+            set
+            {
+                pID = value;
+            }
+        }
 
+        private String pName;
+        public string ParticipantName {
+            get
+            {
+                return pName;
+            }
+            set
+            {
+                pName = value;
+            }
+        }
     }
 }

@@ -8,7 +8,7 @@ namespace Classes
 {
     public class SQLConnection : IDataConnection
     {
-        public Tournament GenerateTournament(Tournament tModel, Participants pModel)
+        public Tournament GenerateTournament(Tournament tModel, ParticipantsList pModel)
         {
             tModel.TournamentID = 1;
             return tModel;
