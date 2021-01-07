@@ -11,7 +11,7 @@ namespace Classes
         /// <summary>
         /// represents one participant competing
         /// </summary>
-        public Participants participantCompeting { get; set; }
+        public ParticipantsList participantCompeting { get; set; }
         /// <summary>
         /// May not include
         /// </summary>

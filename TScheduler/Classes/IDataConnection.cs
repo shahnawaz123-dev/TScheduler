@@ -8,6 +8,6 @@ namespace Classes
 {
     public interface IDataConnection
     {
-        Tournament GenerateTournament(Tournament tModel, Participants pModel);
+        Tournament GenerateTournament(Tournament tModel, ParticipantsList pModel);
     }
 }
